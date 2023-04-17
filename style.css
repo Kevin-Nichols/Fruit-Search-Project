@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 1px solid;
+}
+
+body {
+  background: linear-gradient(0.25turn, #f9d322, #e65c00);
+}
+
+.search-container {
+ position: relative;
+ left: 47%;
+ top: 500px;
+ width: 204px;
+}
+
+.search-container input {
+ background-color: #f3ae49;
+ height: 35px;
+ border: none;
+ border-radius: 5px;
+ text-align: center;
+ width: 204px;
+ font-family: 'Chivo', sans-serif;
+}
+.search-container .suggestions {
+  background-color: #f3ae49;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Chivo', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin:3px;
+}
+
+ul li:hover {
+  cursor: pointer;
+  background-color: #e65c00;
+}
